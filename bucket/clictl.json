@@ -1,0 +1,32 @@
+{
+    "version": "0.0.0",
+    "description": "The package manager for your Agent",
+    "homepage": "https://clictl.dev",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.clictl.dev/releases/v0.0.0/clictl-windows-amd64.zip",
+            "hash": ""
+        },
+        "arm64": {
+            "url": "https://download.clictl.dev/releases/v0.0.0/clictl-windows-arm64.zip",
+            "hash": ""
+        }
+    },
+    "bin": "clictl.exe",
+    "checkver": {
+        "url": "https://download.clictl.dev/version.json",
+        "jsonpath": "$.version",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.clictl.dev/releases/v$version/clictl-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://download.clictl.dev/releases/v$version/clictl-windows-arm64.zip"
+            }
+        }
+    }
+}
