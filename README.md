@@ -1,6 +1,6 @@
 # Scoop Bucket for clictl
 
-Official [Scoop](https://scoop.sh) bucket for [clictl](https://clictl.dev) - the package manager for AI agents.
+Official [Scoop](https://scoop.sh) bucket for [clictl](https://clictl.dev) - a package manager for AI agents.
 
 ## Install
 
@@ -21,21 +21,19 @@ scoop update clictl
 scoop uninstall clictl
 ```
 
-## About clictl
+## About
 
-clictl is an open-source CLI that turns any API, website, MCP server, or skill into a command you and your agent can run.
+clictl turns any API, MCP server, or website into a CLI command your agent discovers automatically. 220+ tools in the registry.
 
 - **Website:** [clictl.dev](https://clictl.dev)
-- **Documentation:** [clictl.dev/docs](https://clictl.dev/docs)
 - **CLI source:** [github.com/clictl/cli](https://github.com/clictl/cli)
-- **Tool registry:** [github.com/clictl/toolbox](https://github.com/clictl/toolbox)
+- **Browse tools:** [clictl.dev/browse](https://clictl.dev/browse)
 
 ## Alternative install methods
 
 ```bash
 # Homebrew (macOS, Linux)
-brew tap clictl/cli
-brew install clictl
+brew install clictl/cli/clictl
 
 # Shell script (macOS, Linux)
 curl -fsSL https://download.clictl.dev/install.sh | bash
@@ -43,6 +41,4 @@ curl -fsSL https://download.clictl.dev/install.sh | bash
 
 ## License
 
-Apache 2.0 - see [LICENSE](LICENSE).
-
-clictl is a [Soap Bucket LLC](https://www.soapbucket.org) project. SOAPBUCKET and clictl are trademarks of Soap Bucket LLC.
+Apache 2.0. clictl is a [Soap Bucket LLC](https://www.soapbucket.org) project.
