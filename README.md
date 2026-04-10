@@ -5,7 +5,7 @@ Official [Scoop](https://scoop.sh) bucket for [clictl](https://clictl.dev) - a p
 ## Install
 
 ```powershell
-scoop bucket add clictl https://github.com/clictl/scoop-cli
+scoop bucket add clictl https://github.com/clictl/scoop-clictl
 scoop install clictl
 ```
 
@@ -33,7 +33,7 @@ clictl turns any API, MCP server, or website into a CLI command your agent disco
 
 ```bash
 # Homebrew (macOS, Linux)
-brew install clictl/cli
+brew install clictl/clictl
 
 # Shell script (macOS, Linux)
 curl -fsSL https://download.clictl.dev/install.sh | bash
