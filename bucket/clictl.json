@@ -1,12 +1,12 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A package manager for AI agents",
   "homepage": "https://clictl.dev",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://download.clictl.dev/releases/v0.1.0/clictl-windows-amd64.zip",
-      "hash": "bbab6a05975282475e6c6e627d2184258507e30429021b52aac2d208728c6951"
+      "url": "https://download.clictl.dev/releases/v0.1.1/clictl-windows-amd64.zip",
+      "hash": "5f1269244c5816381562675f847f52c93bac56b7eb1c064241835016e8e858e5"
     }
   },
   "bin": "clictl.exe",
