@@ -33,7 +33,7 @@ clictl turns any API, MCP server, or website into a CLI command your agent disco
 
 ```bash
 # Homebrew (macOS, Linux)
-brew install clictl/cli/clictl
+brew install clictl/cli
 
 # Shell script (macOS, Linux)
 curl -fsSL https://download.clictl.dev/install.sh | bash
