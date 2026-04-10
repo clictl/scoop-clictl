@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://download.clictl.dev/releases/v0.1.0/clictl-windows-amd64.zip",
-      "hash": "f9aae4f141487a3ef2ba955c7e31b528e0561aab25690365d3bb36155d817400"
+      "hash": "bbab6a05975282475e6c6e627d2184258507e30429021b52aac2d208728c6951"
     }
   },
   "bin": "clictl.exe",
